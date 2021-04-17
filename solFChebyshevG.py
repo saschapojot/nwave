@@ -9,7 +9,7 @@ rowN = 0
 hp0Val = inDat.iloc[rowN, 1]
 alpha = 1 / 2 * (p * (d - 1) - 2)
 xExpon = 2 * alpha - 2
-N = 32
+N = 128
 
 yVals = [-np.cos(np.pi * j / (2 * N)) for j in range(2 * N, -1, -1)]
 xVals = [yElem / 2 + 1 / 2 for yElem in yVals]
